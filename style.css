@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+header{
+    background: black;
+    
+}
+
+header img {
+    margin-left: 40%;
+
+}
+
+ul li {
+    padding: 10px;
+    color:white;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+ul{
+    color:white;
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#destaque{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+    
+  
+}
+
+.card{
+   
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    background: url(img/img1.jpg) no-repeat center;
+   border-right: 2px solid rgb(161, 161, 161);
+   border-bottom: 2px solid rgb(161, 161, 161);
+   box-shadow: 1px 1px rgba(97, 97, 97, 0.692);
+    padding: 10px;
+    
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background: #ff9600;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 320px;
+    margin-left: 90px;
+    font-weight: 700;
+    
+}
+
+#zap{
+    position: fixed;
+    right: 13px;
+    bottom: 10px;
+}
+
+.p{
+    text-align: center;
+    font-weight: 550;
+    font-size: 1em;
+    
+}
+
+.whay{
+    background: url(img/whey.jpg) no-repeat center;
+}
+
+.pack{
+    background: url(img/pack.jpg) no-repeat center;
+}
+
+.crea{
+    background: url(img/crea.jpg) no-repeat center;
+
+}
+
+footer{
+    height: 300px;
+    background: url(img/card.jpg) black no-repeat center ;
+
+}
+
+@media  (max-width: 400px) {
+    footer{
+        height: 200px;
+        background: url(img/min_card.jpg) black no-repeat center ;
+    }
+    header img {
+        margin: 6%;
+    }
+    button{
+        margin-left: 31%;
+
+        
+    }
+}
